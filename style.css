@@ -53,20 +53,50 @@ body {
 
 .conteudo {
   margin: auto;
-  max-width: 900px;
 }
 
 .conteudo-hero {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  text-align: center;
   padding: 20px;
+  height: 90vh;
+  background-image: url(imagens/cafefundo.jpg);
+  background-size: cover;
+  background-position: right center;
 }
 
 .conteudo-hero-escrito {
-  color: #4b2e2b;
+  padding-top: 30vh;
+  color: var(--cor03);
 }
 
 .conteudo-hero-escrito-titulo {
-  margin: 5px;
+  font-family: var(--fontTitulo01);
+  font-size: 3em;
+  margin-bottom: 20px;
+  text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.conteudo-hero-escrito-subtitulo {
+  font-family: var(--fontTexto);
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.conteudo-hero-escrito-botao {
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+a > .botao {
+  max-width: cover;
+}
+
+.botao {
+  margin: 20px;
+  padding: 10px;
+  border: none;
+  background-color: var(--cor02);
+  border-radius: 5px;
+  color: var(--cor04);
+  font-weight: 700;
+  font-family: var(--fontTexto);
 }
