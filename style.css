@@ -100,3 +100,45 @@ a > .botao {
   font-weight: 700;
   font-family: var(--fontTexto);
 }
+
+.conteudo-sobre {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  height: 110vh;
+  color: var(--cor03);
+  background-color: var(--cor01);
+  border-bottom: 2px solid var(--cor02);
+  background-image: url(imagens/logotipo2.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-position-y: 55vh;
+  background-size: 40px;
+}
+
+.conteudo-sobre-escrito {
+  max-width: 500px;
+}
+
+.conteudo-sobre-escrito-titulo {
+  font-family: var(--fontTitulo02);
+  font-size: 3em;
+  padding-bottom: 40px;
+}
+
+.conteudo-sobre-escrito-paragrafo {
+  font-family: var(--fontTexto);
+  font-size: 1.2em;
+}
+
+.conteudo-sobre-escrito-imagem {
+  display: flex;
+  align-items: center;
+  background-color: var(--cor02);
+}
+
+.conteudo-sobre-escrito-imagem > img {
+  padding: 5px;
+  width: 500px;
+}
