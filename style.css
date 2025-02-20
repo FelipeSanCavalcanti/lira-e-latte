@@ -91,7 +91,6 @@ a > .botao {
 }
 
 .botao {
-  margin: 20px;
   padding: 10px;
   border: none;
   background-color: var(--cor02);
@@ -141,4 +140,76 @@ a > .botao {
 .conteudo-sobre-escrito-imagem > img {
   padding: 5px;
   width: 500px;
+}
+
+.conteudo-cardapio {
+  background-color: var(--cor01);
+}
+
+.conteudo-cardapio-apresentacao {
+  padding: 40px 20px;
+  text-align: center;
+  color: var(--cor03);
+}
+
+.conteudo-cardapio-apresentaçao-titulo {
+  font-family: var(--fontTitulo01);
+  padding-bottom: 10px;
+  font-size: 5vh;
+}
+
+.conteudo-cardapio-apresentaçao-subtitulo {
+  font-family: var(--fontTexto);
+}
+
+.conteudo-cardapio-card {
+  display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: var(--cor03);
+  margin-bottom: 20px;
+}
+
+.conteudo-cardapio-card-img {
+  max-width: 250px;
+}
+
+.conteudo-cardapio-card-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 15px;
+}
+
+.conteudo-cardapio-card-info-nome {
+  font-family: var(--fontTitulo02);
+  color: var(--cor01);
+}
+
+.conteudo-cardapio-card-info-caracteristica {
+  font-family: var(--fontTexto);
+  font-weight: bolder;
+  color: var(--cor05);
+  padding: 5px 0px 10px 0px;
+}
+
+.conteudo-cardapio-card-info-descricao {
+  font-family: var(--fontTexto);
+  color: var(--cor01);
+  padding: 10px 0px;
+}
+
+.conteudo-cardapio-card-info-preco {
+  display: block;
+  font-family: var(--fontTexto);
+  font-weight: bolder;
+  color: var(--cor01);
+  padding-bottom: 10px;
+  margin-bottom: 50px;
+}
+
+.conteudo-cardapio-card-info-botao {
+  width: 100px;
 }
