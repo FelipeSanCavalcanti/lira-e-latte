@@ -24,6 +24,10 @@ body {
   background-color: var(--cor03);
 }
 
+a {
+  text-decoration: none;
+}
+
 .cabeçalho {
   display: flex;
   flex-direction: row;
@@ -100,6 +104,12 @@ a > .botao {
   font-family: var(--fontTexto);
 }
 
+.botao:hover {
+  background-color: var(--cor01);
+  color: var(--cor04);
+  transition: 0.5s;
+}
+
 .conteudo-sobre {
   display: flex;
   justify-content: space-around;
@@ -144,6 +154,7 @@ a > .botao {
 
 .conteudo-cardapio {
   background-color: var(--cor01);
+  padding-bottom: 20px;
 }
 
 .conteudo-cardapio-apresentacao {
@@ -170,6 +181,10 @@ a > .botao {
   padding: 20px;
   background-color: var(--cor03);
   margin-bottom: 20px;
+}
+
+.conteudo-cardapio-card:hover {
+  box-shadow: 0px 0px 10px var(--cor02);
 }
 
 .conteudo-cardapio-card-img {
@@ -212,4 +227,40 @@ a > .botao {
 
 .conteudo-cardapio-card-info-botao {
   width: 100px;
+}
+
+.conteudo-cardapio-botao {
+  display: block;
+  background-color: var(--cor05);
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.conteudo-cardapio-botao:hover {
+  background-color: var(--cor04);
+  color: var(--cor05);
+  transition: 0.5s;
+}
+
+.conteudo-extra {
+  padding: 10px;
+}
+
+.conteudo-extra-titulo {
+  text-align: center;
+  margin: 40px 0px;
+  font-family: var(--fontTitulo02);
+  font-size: 2em;
+  color: var(--cor06);
+}
+
+.conteudo-extra-info-texto {
+  font-family: var(--fontTexto);
+  font-weight: 500;
+  width: 500px;
+}
+
+.conteudo-extra-info-texto > strong {
+  color: var(--cor06);
 }
