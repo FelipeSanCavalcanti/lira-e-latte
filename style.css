@@ -132,7 +132,7 @@ a > .botao {
 
 .conteudo-sobre-escrito-titulo {
   font-family: var(--fontTitulo02);
-  font-size: 3em;
+  font-size: 2.5em;
   padding-bottom: 40px;
 }
 
@@ -149,7 +149,7 @@ a > .botao {
 
 .conteudo-sobre-escrito-imagem > img {
   padding: 5px;
-  width: 500px;
+  width: 30vw;
 }
 
 .conteudo-cardapio {
@@ -263,4 +263,53 @@ a > .botao {
 
 .conteudo-extra-info-texto > strong {
   color: var(--cor06);
+}
+
+.fundo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+
+.carrossel {
+  display: flex;
+  position: relative;
+  width: 80%;
+  max-width: 600px;
+  overflow: hidden;
+  flex-direction: row;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.carrossel-container {
+  display: flex;
+}
+
+.carrossel-slide {
+  min-width: 100%;
+}
+
+.carrossel-slide img {
+  width: 100%;
+  display: block;
+}
+
+.carrossel-nav-button {
+  background: var(--cor03);
+  color: var(--cor06);
+  font-family: var(--fontTexto);
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+#prev {
+  left: 10px;
+}
+
+#next {
+  right: 10px;
 }

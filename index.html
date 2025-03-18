@@ -15,6 +15,7 @@
     <title>Lira & Latte - Coffee Shop | Café, Música e Cultura</title>
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
   </head>
   <body>
     <header class="cabeçalho">
@@ -115,7 +116,6 @@
       <section class="conteudo-extra">
         <h2 class="conteudo-extra-titulo">Muito Além do Café</h2>
 
-        <div>
           <div class="conteudo-extra-info">
             <p class="conteudo-extra-info-texto">
               No <strong>Lira & Latte</strong>, cada canto conta uma história.
@@ -127,8 +127,19 @@
             </p>
           </div>
 
-          <div>carrocel</div>
-        </div>
+          <!--Carrossel-->
+          <div class="fundo">
+            <div class="carrossel">
+              <button id="prev" class="carrossel-nav-button">❮</button>
+              <div class="carrossel-container">
+                <div class="carrossel-slide"><img src="imagens/slide1.jpg" alt="slide1"></div>
+                <div class="carrossel-slide"><img src="imagens/slide2.jpg" alt="slide2"></div>
+                <div class="carrossel-slide"><img src="imagens/slide3.jpg" alt="slide3"></div>
+                <div class="carrossel-slide"><img src="imagens/slide4.jpg" alt="slide4"></div>
+              </div>
+              <button id="next" class="carrossel-nav-button">❯</button>
+            </div>
+          </div>
 
         <article>
           <div>
