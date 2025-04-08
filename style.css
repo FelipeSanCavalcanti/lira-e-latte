@@ -541,3 +541,42 @@ a > .botao {
   font-family: var(--fontTexto);
   font-weight: 600;
 }
+
+.contato {
+  margin-top: 150px;
+  padding-left: 20px;
+}
+
+.contato-info {
+  display: flex;
+  flex-direction: column;
+  max-width: 50vw;
+}
+
+.contato-info-titulo {
+  font-family: var(--fontTitulo02);
+  font-size: 2em;
+  padding-bottom: 40px;
+}
+
+.contato-info-descricao {
+  font-family: var(--fontTexto);
+  font-weight: 600;
+  font-size: 1em;
+  padding-bottom: 20px;
+}
+
+.dado {
+  font-family: var(--fontTexto);
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+.contato-info-horario {
+  padding-top: 10px;
+}
+
+.contato-info-horario-lista {
+  list-style-position: inside;
+  padding-bottom: 10px;
+}
